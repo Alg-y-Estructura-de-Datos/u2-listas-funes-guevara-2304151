@@ -1,6 +1,7 @@
 #ifndef U02_LISTAS_LISTA_LISTA_H_
 #define U02_LISTAS_LISTA_LISTA_H_
 #include "nodo.h"
+using namespace std;
 
 /**
  * Clase que implementa una Lista Enlasada generica, ya que puede
@@ -244,7 +245,7 @@ void Lista<T>::print() {
         std::cout << aux->getDato() << "->";
         aux = aux->getSiguiente();
     }
-    std::cout << "NULL" << std::endl;
+    std::cout<< "NULL" << std::endl;
 }
 
 #endif // U02_LISTAS_LISTA_LISTA_H_
